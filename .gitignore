@@ -1,0 +1,10 @@
+# Comment
+temp_log.txt
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+# dont ignore mp4 vides prefixed with tour_ | ! negates an expression
+!assets/videos/tour_*.mp4
